@@ -26,6 +26,24 @@ function header() {
   document.getElementsByTagName("header")[0].innerHTML =
     "<h1> El Pawl.com </h1>";
 }
+function nav() {
+  let nav = document.createElement("nav");
+  // let headers = document.getElementsByTagName("header")[0];
+  let container = document.getElementById("container");
+
+  container.appendChild(nav).innerHTML = `
+  <ul>
+  <li> Sports Book </li>
+  <li> Shopping </li>
+  <li> My Page </li>
+
+
+
+  </ul>
+
+  `;
+}
+
 function article() {
   let article = document.createElement("artice");
   article.classList.add("article");
@@ -119,6 +137,7 @@ function aside() {
 
 container();
 header();
+nav();
 article();
 div();
 aside();

@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.mjs",
   "scripts": {
-    "start": "node express.mjs"
+    "start": "nodemon express.mjs"
   },
   "author": "",
   "license": "ISC",
@@ -12,6 +12,7 @@
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.13",
     "path": "^0.12.7",
     "prettier": "^2.4.1"
   }

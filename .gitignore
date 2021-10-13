@@ -1,0 +1,9 @@
+./.vscode
+/node
+node_modules/
+.env
+.vscode
+testServer.js
+.prettierrc.json
+templating.txt
+/templates

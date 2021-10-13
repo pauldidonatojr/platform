@@ -23,7 +23,8 @@ function header() {
   let header = document.createElement("header");
   let container = document.getElementById("container");
   container.appendChild(header);
-  document.getElementsByTagName("header")[0].innerHTML = "<h1> Platform </h1>";
+  document.getElementsByTagName("header")[0].innerHTML =
+    "<h1> El Pawl.com </h1>";
 }
 function article() {
   let article = document.createElement("artice");

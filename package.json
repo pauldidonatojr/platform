@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.mjs",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "parcel build src/index.html",
     "format": "prettier --write \"src/**/*.{js, jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },

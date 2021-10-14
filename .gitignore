@@ -7,3 +7,5 @@ testServer.js
 .prettierrc.json
 templating.txt
 /templates
+server.js
+README.md

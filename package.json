@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "server.mjs",
   "scripts": {
-    "start": "parcel build src/index.html",
+    "sass": "node-sass -w scss/ -o css/ --recursive",
+    "start": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js, jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
@@ -13,14 +14,21 @@
     "@emotion/react": "^11.4.1",
     "@material-ui/core": "^4.12.3",
     "@mui/material": "^5.0.3",
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.1.1",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mdbreact": "^5.1.0",
+    "mongoose": "^6.0.10",
     "node-fetch": "^3.0.0",
     "nodemon": "^2.0.13",
     "parcel": "^1.12.3",
     "path": "^0.12.7",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-bootstrap": "^2.0.0-rc.0",
+    "react-dom": "^17.0.1",
+    "tar": "^6.1.11"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-0",

@@ -7,5 +7,6 @@ testServer.js
 .prettierrc.json
 templating.txt
 /templates
-server.js
+
+.eslintrc.json
 README.md

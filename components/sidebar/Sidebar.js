@@ -24,7 +24,7 @@ const NavIcon = styled(Link)`
 `;
 
 const SidebarNav = styled.nav`
-  background: #15171c;
+  background: blue;
   width: 250px;
   height: 100vh;
   display: flex;
@@ -51,9 +51,7 @@ const Sidebar = () => {
         <Nav>
           <NavIcon to="#">
             {" "}
-            <Button variant="text" onClick={showSidebar}>
-              El Pawl.com
-            </Button>{" "}
+            <Button variant="text" onClick={showSidebar}></Button>{" "}
           </NavIcon>
         </Nav>
         <SidebarNav sidebar={sidebar}>
